@@ -1,5 +1,6 @@
 # Improved Magnifying Lens
-![image](https://github.com/user-attachments/assets/2ed6c457-c069-4113-b88d-b9f2d9f7b819)
+![image](https://github.com/user-attachments/assets/a9ef6999-dec5-47a2-8835-430166f507ca)
+
 
 The mod will add a little realism to lighting a fire with a magnifying glass.
 
