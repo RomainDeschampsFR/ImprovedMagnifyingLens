@@ -12,10 +12,5 @@ namespace ImprovedMagnifyingLens
 		{
             Debug.Log($"[{Info.Name}] Version {Info.Version} loaded!");
         }
-
-		public override void OnSceneWasLoaded(int buildIndex, string sceneName)
-		{
-
-        }
     }
 }
