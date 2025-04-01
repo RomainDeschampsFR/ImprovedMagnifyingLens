@@ -26,7 +26,7 @@ namespace ImprovedMagnifyingLens
                     int layerMask = (1 << 8) | (1 << 9) | (1 << 11);
                     RaycastHit hit;
                     if (GameManager.GetPlayerObject().transform == null) return false;
-                    if (Physics.Raycast(GameManager.GetPlayerObject().transform.position + Vector3.forward * 1f, transform.TransformDirection(Vector3.back), out hit, Mathf.Infinity, layerMask))
+                    if (Physics.Raycast(GameManager.GetPlayerObject().transform.position + GameManager.GetPlayerObject().transform.forward, transform.TransformDirection(Vector3.back), out hit, Mathf.Infinity, layerMask))
                     {
                         return false;
                     }
